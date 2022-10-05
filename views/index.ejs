@@ -1,0 +1,42 @@
+<%- include('partials/header'); -%>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hi</title>
+  </head>
+  <body>
+    <h1 class="text-center">Note Taker from Speech</h1>
+
+    <div class="form-group">
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <div class="container">
+      <form class="" action="/index" method="post">
+      <span id="instructions"></span>
+      <h3>Title</h3>
+      <input class="form-control" type="text" name="postTitle">
+      <h3>
+        Voice Notepad
+      </h3>
+      <div class="form-group">
+      <textarea type="text" name= "postBody" class="form-control" id="textarea" cols="30" rows="10"></textarea>
+      </div>
+      <button id="saveas" type="submit" name="button" class="btn btn-warning btn-block" >
+        Save to File
+      </button>
+    </form>
+    <button id="clear" class="btn btn-danger btn-block">
+      Clear Text
+    </button>
+    <button id="start" class="btn btn-primary btn-block">
+      Start Recording
+    </button>
+    </div>
+
+</body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</html>
+<%- include('partials/footer'); -%>

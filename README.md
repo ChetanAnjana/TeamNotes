@@ -1,8 +1,8 @@
 # Voice Input Web Application: TeamNotes
 
 This project allows users to input voice commands and process them accordingly. It was initially hosted and used by a group of people, to take and share their notes with each other during class. However, after free hostings were disabled I changed it to work locally on your computer. There's still a MongoDB database connected to its backend and this guide will help you set it up on your machine.
-![App ScreenShots](views/Screenshot(22).png)
-![App ScreenShots](views/Screenshot(23).png)
+![App ScreenShots](views/Screenshot (22).png)
+![App ScreenShots](views/Screenshot (23).png)
 
 ## Prerequisites
 
